@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bankName"
+        android:textStyle="bold"
+        android:padding="20dip"
+        android:textSize="16dp"
+        android:text="Bank Name"/>
+
+
+    <TextView
+        android:id="@+id/usdBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="usdBuy"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/usdSell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="usdSell"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/eurBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="eurBuy"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/eurSell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="eurSell"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/rateUpdated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="rateUpdated"
+        android:textSize="14dp" />
+
+</LinearLayout>
